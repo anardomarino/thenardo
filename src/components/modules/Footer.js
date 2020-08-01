@@ -17,6 +17,7 @@ class Footer extends Component {
 	render(){
 		return(<>
 			<div className="Footer-container">
+				<div className="Footer-links">
 				<a className="Footer-title" href={EMAIL}
 				   target="_blank">
 				anthonyn@mit.edu
@@ -33,6 +34,7 @@ class Footer extends Component {
 				   target="_blank">
 				linkedin.
 				</a>
+				</div>
 			</div>
 		</>);
 	}

@@ -38,7 +38,7 @@ const webpack = require("webpack")
          ]
        },
        {
-	 test: /\.(png|svg|jpg|gif)$/,
+	 test: /\.(png|svg|jpg|jpeg|gif)$/,
 	 use: [
 		{
 			loader: "url-loader",

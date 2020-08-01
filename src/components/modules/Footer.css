@@ -1,13 +1,20 @@
 .Footer-container {
-	margin: 0 auto;
-	padding: 2% var(--col);
 	color: var(--primary);
 	background: var(--grey);
 	border-top: 1px solid var(--secondary);
-	display: flex;
 	font-size: 20px;
 	text-decoration: none;
-	position: relative;
+	bottom: 0;
+	width: 100%;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.Footer-links {
+	margin-left: var(--col);
+	margin-right: var(--col);
+	display: flex;
 }
 
 .Footer-title {
@@ -17,14 +24,11 @@
 	transition: 0.5s;
 	padding-left: 1%;
 	padding-right: 1%;
-	border: 1px solid var(--grey);
 	outline: 0;
 }
 
 .Footer-title:hover{
 	color: var(--secondary);
-	border: 1px solid var(--secondary);
-	border-radius: 15%;
 }
 
 .Footer-title:active{
