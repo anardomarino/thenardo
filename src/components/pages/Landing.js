@@ -13,8 +13,6 @@ class Landing extends Component {
 	}
 	render(){
 		return(<>
-			<img className="Landing-background"
-			     src={montan} />
 			x
 		</>);
 	}

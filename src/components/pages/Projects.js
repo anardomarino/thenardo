@@ -3,6 +3,7 @@ import { Router } from "@reach/router";
 
 //style
 import "./Projects.css";
+import "../../utilities.css";
 
 // images
 
@@ -12,7 +13,11 @@ class Projects extends Component {
 	}
 	render(){
 		return(<>
-			x
+			<div className="Page-container">
+			<div className="Page-title u-fadein">
+			projects.
+			</div>
+			</div>
 		</>);
 	}
 

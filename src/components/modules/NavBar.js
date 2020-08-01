@@ -25,13 +25,16 @@ class NavBar extends Component{
 			</Link>
 			<div className="NavBar-items-container">
 				<Link to="/info" className="NavBar-item">
-					info
+					info.
 				</Link>
 				<Link to="/projects" className="NavBar-item">
-					projects
+					projects.
+				</Link>
+				<Link to="/music" className="NavBar-item">
+					music.
 				</Link>
 				<Link to="/games" className="NavBar-item">
-					games
+					games.
 				</Link>
 			</div>
 		</nav>

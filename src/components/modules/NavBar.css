@@ -1,7 +1,8 @@
 .NavBar-container{
-	border-bottom: 1px solid var(--grey);
+	border-bottom: 1px solid var(--secondary);
 	display: flex;
 	width: 100%;
+	background: var(--grey);
 }
 
 .NavBar-title {
@@ -9,12 +10,13 @@
 	color: var(--primary);
 	margin: 10px;
 	text-decoration: none;
+	text-shadow: 0px 1px var(--secondary);
 	transition: 0.5s;
+	outline: 0;
 }
 
 .NavBar-title:hover {
 	color: var(--secondary);
-	text-decoration: none;
 }
 
 .NavBar-items-container {
@@ -30,14 +32,26 @@
 	color: var(--primary);
 	text-decoration: none;
 	transition: 0.5s;
+	text-shadow: 0px 1px var(--secondary);
+	transition: 0.5s;
+	padding: 10px;
+	border: 1px solid var(--grey);
+	outline: 0;
 }
 
 .NavBar-item:first-of-type{
-	margin-left: 100%;
+	margin-left: 45%;
 }
 
 .NavBar-item:hover {
 	color: var(--secondary);
+	border: 1px solid var(--secondary);
+	border-radius: 15%;
+}
+
+.NavBar-item:active{
+	color: var(--primary);
+	background: var(--secondary);
 }
 
 

@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import { Router } from "@reach/router";
 
 //style
-import "./Games.css";
+import "./Info.css";
 
 // images
 
-class Games extends Component {
+class Info extends Component {
 	constructor(props){
 		super(props);
 	}
@@ -14,7 +14,7 @@ class Games extends Component {
 		return(<>
 			<div className="Page-container">
 			<div className="Page-title u-fadein">
-			games.
+			music.
 			</div>
 			</div>
 		</>);
@@ -22,4 +22,4 @@ class Games extends Component {
 
 }
 
-export default Games;
+export default Info;

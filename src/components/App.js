@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { Router } from "@reach/router";
 import NavBar from "./modules/NavBar";
+import Footer from "./modules/Footer";
 
 // pages
 import Landing from "./pages/Landing";
 import Info from "./pages/Info";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Music from "./pages/Music";
 import Games from "./pages/Games";
 import NotFound from "./pages/NotFound";
 
@@ -28,10 +30,12 @@ class App extends Component {
 				<Info		path="/info" />
 				<About	 	path="/about" />
 				<Projects	path="/projects" />
+				<Music		path="/music" />
 				<Games		path="/games" />
 				<NotFound default />
 			</Router>
 			</div>
+			<Footer />
 		</div>
 		</>);
 	}
