@@ -6,5 +6,20 @@
 
 .NavBar-title {
 	font-size: 50px;
+	color: var(--primary);
 	margin: 10px var(--col);
+}
+
+.NavBar-items-container {
+	justify: right;
+	display: flex;
+}
+
+.NarBar-item {
+	font-size: 30px;
+	color: var(--primary);
+}
+
+.NavBar-item::hover {
+	color: var(--secondary);
 }

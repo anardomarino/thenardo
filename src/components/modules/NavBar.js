@@ -15,6 +15,14 @@ class NavBar extends Component{
 			<div className="NavBar-title">
 			anthony nardomarino.
 			</div>
+			<div className="NavBar-items-container">
+				<div className="NavBar-item">
+					item1
+				</div>
+				<div className="NavBar-item">
+					item2
+				</div>
+			</div>
 		</div>
 		</>);
 	}
