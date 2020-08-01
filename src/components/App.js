@@ -4,6 +4,10 @@ import NavBar from "./modules/NavBar";
 
 // pages
 import Landing from "./pages/Landing";
+import Info from "./pages/Info";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Games from "./pages/Games";
 import NotFound from "./pages/NotFound";
 
 // Style
@@ -20,7 +24,11 @@ class App extends Component {
 			<NavBar />
 			<div className="Page-container">
 			<Router>
-				<Landing path="/" />
+				<Landing 	path="/" />
+				<Info		path="/info" />
+				<About	 	path="/about" />
+				<Projects	path="/projects" />
+				<Games		path="/games" />
 				<NotFound default />
 			</Router>
 			</div>

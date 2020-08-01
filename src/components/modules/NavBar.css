@@ -40,7 +40,8 @@
 	color: var(--secondary);
 }
 
-.NavBar-logo {
+
+.NavBar-logo-container {
 	margin-left: var(--col);
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -48,3 +49,7 @@
 	height: auto;
 	display: inline;
 }
+
+.NavBar-logo {
+	width: 100%;
+}	
