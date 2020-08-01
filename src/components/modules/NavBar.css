@@ -1,0 +1,10 @@
+.NavBar-container{
+	border-bottom: 1px solid var(--grey);
+	display: flex;
+	width: 100%;
+}
+
+.NavBar-title {
+	font-size: 50px;
+	margin: 10px var(--col);
+}
