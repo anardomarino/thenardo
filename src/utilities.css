@@ -1,24 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
 
 :root{
-	--primary: #faf7de;
-	--secondary: #6ad7fe;
+	--primary: #ffffff;
+	--secondary: #44dddd;
 
 	--background: #1e1e1e;
-	--grey: #333;
+	--grey: #444;
 
 	--col: 	20%;
 }
 
+#root {
+	height: 89%;
+}
+
 html {
 	background-color: var(--background);
+	margin: 0;
+	height: 100%;
 }
 
 body {
 	font-family: "Lato", sans-serif;
+	height: 100%;
 	margin: 0;
 }
 
+.u-fadein {
+	animation: 1.2s fadein;
+}
+
 ::selection {
-	background: var(--primary);
+	background: var(--secondary);
+}
+
+@keyframes fadein {
+	0%{
+		opacity: 0%;
+	}
+	100%{
+		opacity: 100%;
+	}
 }

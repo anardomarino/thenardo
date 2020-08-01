@@ -36,6 +36,14 @@ const webpack = require("webpack")
              loader: "css-loader",
              }
          ]
+       },
+       {
+	 test: /\.(png|svg|jpg|gif)$/,
+	 use: [
+		{
+			loader: "url-loader",
+		},
+	 ]
        }
      ]
    },

@@ -1,8 +1,12 @@
 import React, { Component } from "react";
+import { Link } from "@reach/router";
 
 // style
 import "./NavBar.css";
 import "../../utilities.css";
+
+// images
+import logo from "../../../public/VFX-1.png";
 
 class NavBar extends Component{
 	constructor(props){
@@ -11,19 +15,24 @@ class NavBar extends Component{
 
 	render(){
 		return(<>
-		<div className="NavBar-container">
-			<div className="NavBar-title">
+		<nav className="NavBar-container">
+			<img className="NavBar-logo"
+			     src={logo} />
+			<Link to="/" className="NavBar-title">
 			anthony nardomarino.
-			</div>
+			</Link>
 			<div className="NavBar-items-container">
-				<div className="NavBar-item">
-					item1
-				</div>
-				<div className="NavBar-item">
-					item2
-				</div>
+				<Link to="/info" className="NavBar-item">
+					info
+				</Link>
+				<Link to="/projects" className="NavBar-item">
+					projects
+				</Link>
+				<Link to="/games" className="NavBar-item">
+					games
+				</Link>
 			</div>
-		</div>
+		</nav>
 		</>);
 	}
 }

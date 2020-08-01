@@ -7,19 +7,44 @@
 .NavBar-title {
 	font-size: 50px;
 	color: var(--primary);
-	margin: 10px var(--col);
+	margin: 10px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.NavBar-title:hover {
+	color: var(--secondary);
+	text-decoration: none;
 }
 
 .NavBar-items-container {
-	justify: right;
+	margin: 10px;
+	padding: 10px;
+	text-align: right;
 	display: flex;
 }
 
-.NarBar-item {
-	font-size: 30px;
+.NavBar-item {
+	font-size: 20px;
+	margin: auto auto auto 10%;
 	color: var(--primary);
+	text-decoration: none;
+	transition: 0.5s;
 }
 
-.NavBar-item::hover {
+.NavBar-item:first-of-type{
+	margin-left: 100%;
+}
+
+.NavBar-item:hover {
 	color: var(--secondary);
+}
+
+.NavBar-logo {
+	margin-left: var(--col);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 4%;
+	height: auto;
+	display: inline;
 }

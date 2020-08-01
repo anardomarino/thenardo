@@ -2,4 +2,12 @@
 	color: var(--secondary);
 	margin: 0 auto;
 	padding: 0;
+	height: 100%;
+}
+
+.Page-container{
+	margin: 0 var(--col) auto;
+	padding: 0;
+	background: var(--grey);
+	height: 100%;
 }
