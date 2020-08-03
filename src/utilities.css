@@ -2,7 +2,9 @@
 
 :root{
 	--primary: #ffffff;
+
 	--secondary: #36c5af;
+	--secondary-dark: #14a38d;
 
 	--background: #1e1e1e;
 	--grey: #444;
@@ -68,7 +70,7 @@ body {
 }
 
 .u-fadein {
-	animation: 1.2s fadein;
+	animation: 1.5s fadein;
 }
 
 .u-center {
@@ -76,7 +78,7 @@ body {
 }
 
 ::selection {
-	color: var(primary);
+	color: var(--primary);
 	background: var(--secondary);
 }
 

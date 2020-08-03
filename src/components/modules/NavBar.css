@@ -10,7 +10,7 @@
 	color: var(--primary);
 	margin: 10px;
 	text-decoration: none;
-	text-shadow: 0px 1px var(--secondary);
+	text-shadow: 0px 2px var(--secondary);
 	transition: 0.5s;
 	outline: 0;
 }
@@ -28,14 +28,14 @@
 
 .NavBar-item {
 	font-size: 20px;
+	text-shadow: 0px 1px var(--secondary);
 	margin: auto auto auto 10%;
 	color: var(--primary);
 	text-decoration: none;
 	transition: 0.5s;
-	text-shadow: 0px 1px var(--secondary);
-	transition: 0.5s;
-	padding: 10px;
-	border: 1px solid var(--grey);
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid var(--grey);
 	outline: 0;
 }
 
@@ -45,15 +45,8 @@
 
 .NavBar-item:hover {
 	color: var(--secondary);
-	border: 1px solid var(--secondary);
-	border-radius: 15%;
+	border-bottom: 1px solid var(--secondary);
 }
-
-.NavBar-item:active{
-	color: var(--primary);
-	background: var(--secondary);
-}
-
 
 .NavBar-logo-container {
 	margin-left: var(--col);

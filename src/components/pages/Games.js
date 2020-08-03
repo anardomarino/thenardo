@@ -16,6 +16,7 @@ class Games extends Component {
 			<div className="Page-title u-fadein">
 			games.
 			</div>
+			I don't play games.
 			</div>
 		</>);
 	}

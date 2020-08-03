@@ -16,3 +16,11 @@
 .Album-cover:hover{
 	border: 1px solid var(--secondary);
 }
+
+.Album-artist {
+
+}
+
+.Album-year {
+	font-size: 20px;
+}

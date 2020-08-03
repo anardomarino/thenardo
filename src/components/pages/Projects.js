@@ -13,10 +13,14 @@ class Projects extends Component {
 	}
 	render(){
 		return(<>
-			<div className="Page-container">
 			<div className="Page-title u-fadein">
 			projects.
 			</div>
+			<div className="Project">
+				project1
+			</div>
+			<div className="Project">
+				project2
 			</div>
 		</>);
 	}

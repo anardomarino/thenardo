@@ -1,0 +1,36 @@
+.News-container {
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 40px 40px 20px 20px;
+	background: var(--grey);
+	height: 80vh;
+	background-image: url("../../../public/range.png");
+	background-size: cover;
+	background-position: 0 100px;
+	background-repeat: no-repeat;
+}
+
+.Button-to {
+	margin: 20px auto;
+	text-align: center;
+}
+
+.News-headline {
+	font-size: 50px;
+	color: var(--secondary);
+}
+
+.News-link {
+	font-size: 30px;
+	color: var(--primary);
+	background: var(--secondary);
+	border-radius: 40px;
+	border: 1px solid var(--background);
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.News-link:hover {
+	background: var(--secondary-dark);
+}

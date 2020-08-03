@@ -22,7 +22,7 @@ class CUPItIsWhatPrev extends Component {
 			<Link to="/music/itiswhatitis" className="Prev-title">
 				<div className="u-center">Contentz Under Pressure</div>
 				<div className="u-center">it is what it is</div>
-				<div className="u-center">(2017)</div>
+				<div className="Album-year u-center">(2017)</div>
 			</Link>
 		</div>
 		</>);

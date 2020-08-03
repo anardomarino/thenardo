@@ -1,5 +1,28 @@
-.Landing-container {
+.Landing-container{
 	margin: 0 auto;
+	position: relative;
+}
+
+.Landing-quote-container {
+	margin: 0 auto;
+	background: url("../../../public/montan.png");
+	background-size: cover;
+	height: 30vh;
+	border-radius: 20px 20px 40px 40px;
+	color: black;
+	font-style: italic;
+	text-align: center;
+	display: block;
+}
+
+#quote {
+	font-size: 20px;
+	padding-top: 10vh;
+}
+
+#author {
+	margin-right: 20%;
+	text-align: right;
 }
 
 .Landing-background {

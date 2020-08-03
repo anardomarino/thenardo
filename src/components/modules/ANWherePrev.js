@@ -20,9 +20,9 @@ class SponchSteamyPrev extends Component {
 				<img className="Album-cover" src={where} />
 			</Link>
 			<Link to="/music/wheretobegin" className="Prev-title">
-				<div className="u-center">Anthony Nardomarino</div>
+				<div className="Album-artist u-center">Anthony Nardomarino</div>
 				<div className="u-center">Where to Begin</div>
-				<div className="u-center">(2020)</div>
+				<div className="Album-year u-center">(2020)</div>
 			</Link>
 		</div>
 		</>);

@@ -22,7 +22,7 @@ class SponchSteamyPrev extends Component {
 			<Link to="/music/carefulitssteamy" className="Prev-title">
 				<div className="u-center">Sponch</div>
 				<div className="u-center">Careful, it's Steamy</div>
-				<div className="u-center">(2019)</div>
+				<div className="Album-year u-center">(2019)</div>
 			</Link>
 		</div>
 		</>);

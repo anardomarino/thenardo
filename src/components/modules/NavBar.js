@@ -36,6 +36,9 @@ class NavBar extends Component{
 				<Link to="/games" className="NavBar-item">
 					games.
 				</Link>
+				<Link to="/art" className="NavBar-item">
+					art.
+				</Link>
 			</div>
 		</nav>
 		</>);

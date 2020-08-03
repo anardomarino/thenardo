@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Router } from "@reach/router";
 
+// modules
+import Me from "../modules/Me";
+
 //style
 import "./Info.css";
 
@@ -16,6 +19,7 @@ class Info extends Component {
 			<div className="Page-title u-fadein">
 			info.
 			</div>
+			<Me />
 			</div>
 		</>);
 	}
