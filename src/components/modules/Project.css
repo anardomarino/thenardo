@@ -1,3 +1,58 @@
 .Project-container {
-	
+	border-radius: 20px;
+	display: flex;
+}
+
+.Project-body {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.Project-title {
+	color: var(--primary);
+	font-size: 25px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.Project-title:hover {
+	color: var(--secondary);
+}
+
+.Project-date {
+	font-size: 15px;
+	color: var(--primary);
+}
+
+.Project-desc {
+	color: var(--primary);
+	text-align: justify;
+	margin: 5px;
+}
+
+.Project-learnmore {
+	background: var(--secondary);
+	padding: 10px;
+	font-size: 20px;
+	color: var(--primary);
+	border-radius: 20px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.Project-button{ 
+	text-align: center;
+	margin: 15px;
+}
+
+.Project-learnmore:hover{ 
+	background: var(--secondary-dark);
+}
+
+.Thumbnail {
+	max-width: 400px;
+	height: 300px;
+	border-radius: 20px 0 0 20px;
+	border: 1px solid var(--secondary);
 }

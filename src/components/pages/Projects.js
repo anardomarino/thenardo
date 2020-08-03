@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import { Router } from "@reach/router";
 
+// projects
+import TheraminPrev from "../modules/TheraminPrev";
+import FPGAPianoPrev from "../modules/FPGAPianoPrev";
+import SkrtPrev from "../modules/SkrtPrev";
+import VVizPrev from "../modules/VVizPrev";
+import TaxiPrev from "../modules/TaxiPrev";
+
 //style
 import "./Projects.css";
 import "../../utilities.css";
@@ -17,10 +24,19 @@ class Projects extends Component {
 			projects.
 			</div>
 			<div className="Project">
-				project1
+				<TheraminPrev />
 			</div>
 			<div className="Project">
-				project2
+				<FPGAPianoPrev />
+			</div>
+			<div className="Project">
+				<VVizPrev />
+			</div>
+			<div className="Project">
+				<SkrtPrev />
+			</div>
+			<div className="Project">
+				<TaxiPrev />
 			</div>
 		</>);
 	}

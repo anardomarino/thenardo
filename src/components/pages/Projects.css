@@ -2,5 +2,6 @@
 	margin: 20px;
 	border-radius: 20px;
 	background: var(--grey);
-	height: 40vh;
+	height: 300px;
+	border: 1px solid var(--grey);
 }

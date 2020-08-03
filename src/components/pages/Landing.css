@@ -25,6 +25,34 @@
 	text-align: right;
 }
 
+.selector {
+	display: flex;
+}
+
+#selected {
+	background: var(--secondary);
+	color: var(--primary);
+}
+
+.panel {
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 10vh;
+	width: 100%;
+	border: 1px solid var(--secondary);
+	border-radius: 20px;
+	background: var(--background);
+	text-align: center;
+	color: var(--secondary);
+	transition: 0.5s;
+}
+
+.panel:hover {
+	border-color: var(--primary);
+	color: var(--primary);
+}
+
 .Landing-background {
 	position: relative;
 }

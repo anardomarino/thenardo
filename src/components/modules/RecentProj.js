@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "@reach/router";
 
+// Projects
+import TheraminPrev from "./TheraminPrev";
+
 // style
 import "../../utilities.css";
 import "./News.css";
 
-class News extends Component {
+class RecentProj extends Component {
 	constructor(props){
 		super(props);
 	}
@@ -13,15 +16,11 @@ class News extends Component {
 	render(){return(<>
 		<div className="News-container u-fadein">
 			<div className="News-headline">
-				about me.
+				most recent projects.
 			</div>
-			<div className="Button-to">
-			<Link to="/info" className="News-link">
-				find out more.	
-			</Link>
-			</div>
+			<TheraminPrev />
 		</div>
 	</>);}
 }
 
-export default News;
+export default RecentProj;

@@ -7,8 +7,8 @@ class NotFound extends Component {
 	}
 	render(){
 		return(<>
-			<div className="u-fadein">
-				Page not found :/
+			<div className="Page-container u-fadein">
+				404, Page not found :/
 			</div>
 		</>);
 	}
