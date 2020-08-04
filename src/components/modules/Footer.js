@@ -8,6 +8,7 @@ const EMAIL	= "mailto:anthonyn@mit.edu";
 const SPOTIFY 	= "https://open.spotify.com/artist/7k6bdTGFNo1R1YfqVUoJ2V";
 const INSTAGRAM	= "https://instagram.com/astring";
 const LINKEDIN	= "https://www.linkedin.com/in/anthony-nardomarino/";
+const GITHUB	= "https://github.com/anardomarino/";
 
 class Footer extends Component {
 	constructor(props){
@@ -33,6 +34,10 @@ class Footer extends Component {
 				<a className="Footer-title" href={LINKEDIN}
 				   target="_blank">
 				linkedin.
+				</a>
+				<a className="Footer-title" href={GITHUB}
+				   target="_blank">
+				github.
 				</a>
 				</div>
 			</div>

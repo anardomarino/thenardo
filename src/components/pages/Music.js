@@ -11,7 +11,7 @@ import "../../utilities.css";
 
 // images
 
-class Info extends Component {
+class Music extends Component {
 	constructor(props){
 		super(props);
 	}
@@ -30,4 +30,4 @@ class Info extends Component {
 
 }
 
-export default Info;
+export default Music;

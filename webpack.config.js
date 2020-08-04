@@ -8,7 +8,8 @@ const webpack = require("webpack")
 
  const htmlWebpackPlugin = new HtmlWebPackPlugin({
    template: "./dist/index.html",
-   filename: "./index.html"
+   filename: "./index.html",
+   favicon: "./public/VFX-1.png"
  });
 
  module.exports = {

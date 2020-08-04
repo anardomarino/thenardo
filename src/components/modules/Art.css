@@ -1,0 +1,11 @@
+.Piece-unsel {
+	max-width: 400px;
+	max-height: 300px;
+	border: 1px solid var(--primary);
+	transition: 0.5s;
+	margin: 20px auto;
+}
+
+.Piece-unsel:hover {
+	border: 1px solid var(--secondary);
+}

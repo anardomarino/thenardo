@@ -20,12 +20,17 @@
 	margin: 20px 20px 30px;
 }
 
+.News-body {
+	margin: 20px;
+	color: var(--primary);
+	text-align: justify;
+}
+
 .News-link {
 	font-size: 30px;
 	color: var(--primary);
 	background: var(--secondary);
 	border-radius: 40px;
-	border: 1px solid var(--background);
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 	transition: 0.5s;

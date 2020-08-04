@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Music from "./pages/Music";
 import Games from "./pages/Games";
+import Art from "./pages/Art";
 import NotFound from "./pages/NotFound";
 
 // Style
@@ -32,6 +33,7 @@ class App extends Component {
 				<Projects	path="/projects" />
 				<Music		path="/music" />
 				<Games		path="/games" />
+				<Art		path="/art" />
 				<NotFound default />
 			</Router>
 			</div>
