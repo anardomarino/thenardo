@@ -11,7 +11,17 @@ import fract from "../../../public/fract.jpg";
 // macros
 const LINK = "/projects/fractal";
 const DESC1 =
-	"The Mandelbrot Explorer is a program that ";
+	"The Mandelbrot Explorer is a program that allows a user to 	\
+	 generate a high-resolution image of a particular coordinate in \
+	 a plotted Mandelbrot Fractal. It takes the two axes of the image\
+	 to be the real and imaginary coordinates of inputs to the 	\
+	 Mandelbrot series, plotting a color at that point corresponding\
+	 to convergence rate, using black to signify a lack of 		\
+	 convergence according to a specified resolution.";
+
+const DESC2 =
+	"Other features of the program include the generation of Julia	\
+	 fractals, or circular substructures of the Mandelbrot fractal.";
 
 class FractalPrev extends Component {
 	render(){return(<>
@@ -27,6 +37,9 @@ class FractalPrev extends Component {
 				</div>
 				<div className="Project-desc">
 					{DESC1}
+				</div>
+				<div className="Project-desc">
+					{DESC2}
 				</div>
 				<div className="Project-button">
 				<Link to={LINK}

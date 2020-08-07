@@ -11,7 +11,15 @@ import nail from "../../../public/pong.png";
 // macros
 const LINK = "/projects/pong";
 const DESC1 =
-	"";
+	"Just your classic Pong game, but with a holiday-spirited twist. \
+	 This really just consisted of a constantly changing color scheme\
+	 of the game, involving the two colors that are signature to the \
+	 spirit of Christmas.";
+
+const DESC2 =
+	"This was my first attempt at making a game from Java, and a worthy\
+	 devotion of time during my AP Computer Science course, as it can  \
+	 distract up to two human players at once!";
 
 class PongPrev extends Component {
 	render(){return(<>
@@ -27,6 +35,9 @@ class PongPrev extends Component {
 				</div>
 				<div className="Project-desc">
 					{DESC1}
+				</div>
+				<div className="Project-desc">
+					{DESC2}
 				</div>
 				<div className="Project-button">
 				<Link to={LINK}

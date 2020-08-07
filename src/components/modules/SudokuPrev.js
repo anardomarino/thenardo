@@ -11,7 +11,15 @@ import nail from "../../../public/sudoku.png";
 // macros
 const LINK = "/projects/sudoku";
 const DESC1 =
-	"";
+	"The Sudoku Solver was the project I felt to be a culmination of my \
+	 work in Java at the conclusion of the AP Computer Science course.  \
+	 It features a system that logically steps through a sudoku puzzle  \
+	 and abstracts a cell into an object that tracks necessary information\
+	 to determine its value.";
+
+const DESC2 = 
+	"In the event of a logical step blocker, the puzzle begins a recursive\
+	 brute force based step through the puzzle until it's completed.";
 
 class SudokuPrev extends Component {
 	render(){return(<>
@@ -27,6 +35,9 @@ class SudokuPrev extends Component {
 				</div>
 				<div className="Project-desc">
 					{DESC1}
+				</div>
+				<div className="Project-desc">
+					{DESC2}
 				</div>
 				<div className="Project-button">
 				<Link to={LINK}

@@ -12,6 +12,7 @@ import SudokuPrev from "../modules/SudokuPrev";
 import ChessPrev from "../modules/ChessPrev";
 import SnakePrev from "../modules/SnakePrev";
 import PongPrev from "../modules/PongPrev";
+import HorsePrev from "../modules/HorsePrev";
 
 //style
 import "./Projects.css";
@@ -42,6 +43,9 @@ class Projects extends Component {
 			</div>
 			<div className="Project">
 				<VVizPrev />
+			</div>
+			<div className="Project">
+				<HorsePrev />
 			</div>
 			<div className="Project">
 				<SkrtPrev />

@@ -13,9 +13,9 @@ const BODY1 =
 
 const BODY2 =
 	"I'm particularly passionate about technology that I know can	\
-	 have a lasting effect on humanity, superseding any circumstances \
-	 in front of us, or between us. For that reason, I enjoy finding\
-	 the intersections between art and science.";
+	 have a lasting effect on humanity, superseding any impeding 	\
+	 circumstances in front of us, or between us. For that reason, I\
+	 enjoy finding the intersections between art and science.";
 
 const BODY3 =
 	"I love prototyping new ideas and have been in the process of	\
