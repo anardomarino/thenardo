@@ -13,6 +13,7 @@ import ChessPrev from "../modules/ChessPrev";
 import SnakePrev from "../modules/SnakePrev";
 import PongPrev from "../modules/PongPrev";
 import HorsePrev from "../modules/HorsePrev";
+import CigarPrev from "../modules/CigarPrev";
 
 //style
 import "./Projects.css";
@@ -61,6 +62,9 @@ class Projects extends Component {
 			</div>
 			<div className="Project">
 				<PongPrev />
+			</div>
+			<div className="Project">
+				<CigarPrev />
 			</div>
 		</>);
 	}

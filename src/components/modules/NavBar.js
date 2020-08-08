@@ -24,21 +24,31 @@ class NavBar extends Component{
 			anthony nardomarino.
 			</Link>
 			<div className="NavBar-items-container">
-				<Link to="/info" className="NavBar-item">
+				<div className="NavBar-item-container">
+				<Link to="/info" className="NavBar-item underline">
 					info.
 				</Link>
-				<Link to="/projects" className="NavBar-item">
+				</div>
+				<div className="NavBar-item-container">
+				<Link to="/projects" className="NavBar-item underline">
 					projects.
 				</Link>
-				<Link to="/music" className="NavBar-item">
+				</div>
+				<div className="NavBar-item-container">
+				<Link to="/music" className="NavBar-item underline">
 					music.
 				</Link>
-				<Link to="/games" className="NavBar-item">
+				</div>
+				<div className="NavBar-item-container">
+				<Link to="/games" className="NavBar-item underline">
 					games.
 				</Link>
-				<Link to="/art" className="NavBar-item">
+				</div>
+				<div className="NavBar-item-container">
+				<Link to="/art" className="NavBar-item underline">
 					art.
 				</Link>
+				</div>
 			</div>
 		</nav>
 		</>);

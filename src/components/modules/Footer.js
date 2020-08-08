@@ -19,23 +19,23 @@ class Footer extends Component {
 		return(<>
 			<div className="Footer-container">
 				<div className="Footer-links">
-				<a className="Footer-title" href={EMAIL}
+				<a className="Footer-title underline" href={EMAIL}
 				   target="_blank">
 				anthonyn@mit.edu
 				</a>
-				<a className="Footer-title" href={INSTAGRAM}
+				<a className="Footer-title underline" href={INSTAGRAM}
 				   target="_blank">
 				instagram.
 				</a>
-				<a className="Footer-title" href={SPOTIFY}
+				<a className="Footer-title underline" href={SPOTIFY}
 				   target="_blank">
 				spotify.
 				</a>
-				<a className="Footer-title" href={LINKEDIN}
+				<a className="Footer-title underline" href={LINKEDIN}
 				   target="_blank">
 				linkedin.
 				</a>
-				<a className="Footer-title" href={GITHUB}
+				<a className="Footer-title underline" href={GITHUB}
 				   target="_blank">
 				github.
 				</a>

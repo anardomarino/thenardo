@@ -77,6 +77,31 @@ body {
 	text-align: center;
 }
 
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+
+.underline:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 0;
+  bottom: -1px;
+  margin: 1px;
+  background: var(--secondary);
+  height: 2px;
+  transition: width .5s ease;
+  -webkit-transition: width .2s ease-out;
+}
+
+.underline:hover:after{
+	width: 100%;
+	left: 0;
+	background: var(--secondary);
+}
+
 ::selection {
 	color: var(--primary);
 	background: var(--secondary);
