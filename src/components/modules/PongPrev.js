@@ -40,10 +40,12 @@ class PongPrev extends Component {
 					{DESC2}
 				</div>
 				<div className="Project-button">
+				<div className="Project-learnmore-container">
 				<Link to={LINK}
 					className="Project-learnmore">
 				learn more.
 				</Link>
+				</div>
 				</div>
 			</div>
 		</div>

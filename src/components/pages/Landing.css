@@ -46,6 +46,7 @@
 	text-align: center;
 	color: var(--secondary);
 	transition: 0.5s;
+	outline: none;
 }
 
 .panel:hover {

@@ -91,7 +91,7 @@ body {
   bottom: -1px;
   margin: 1px;
   background: var(--secondary);
-  height: 2px;
+  height: 1px;
   transition: width .5s ease;
   -webkit-transition: width .2s ease-out;
 }

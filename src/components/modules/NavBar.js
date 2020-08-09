@@ -16,6 +16,7 @@ class NavBar extends Component{
 	render(){
 		return(<>
 		<nav className="NavBar-container">
+			<div className="NavBar-capture">
 			<Link to="/" className="NavBar-logo-container">
 			<img className="NavBar-logo"
 			     src={logo} />
@@ -49,6 +50,7 @@ class NavBar extends Component{
 					art.
 				</Link>
 				</div>
+			</div>
 			</div>
 		</nav>
 		</>);

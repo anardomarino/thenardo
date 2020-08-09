@@ -17,8 +17,8 @@ const DESC1 =
 
 const DESC2 =
 	"Vocal Viz implements object detection with OpenCV, using the 	\
-	 object frame in conjunction with the IBM-Watson Visual Recognition \
-	 service to translate and label the object on the screen.";
+	 object frame with the IBM-Watson Visual Recognition \
+	 library to translate and label the object on the screen.";
 
 const DESC3 =
 	"Intended use with AR glasses or with other non-impeding 	\
@@ -46,10 +46,12 @@ class VVizPrev extends Component {
 					{DESC3}
 				</div>
 				<div className="Project-button">
+				<div className="Project-learnmore-container">
 				<Link to="/projects/vviz"
 					className="Project-learnmore">
 				learn more.
 				</Link>
+				</div>
 				</div>
 			</div>
 		</div>

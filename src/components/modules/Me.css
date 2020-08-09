@@ -1,0 +1,239 @@
+.Me-container {
+	background: var(--grey);
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 20px;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.pack-info{
+	display: flex;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.Me-head {
+	font-size: 60px;
+	margin-top: 20px;
+	margin-left: 10%;
+}
+
+.Me-top-info-container {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+}
+
+.Me-pic-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.Me-pic {
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 20px;
+	box-shadow: 0 1px 1px 0 var(--primary);
+}
+
+.Me-summary{ 
+	color: var(--primary);
+	text-align: justify;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.Me-programming-container{
+	margin-bottom: 40px;
+	border-radius: 40px;
+	flex-grow: 1;
+	margin-left: 20px;
+}
+
+.progress-outside {
+	border-radius: 5px;
+	background: var(--background);
+	width: 100%;
+	height: 20px;
+	padding: 2px 2px auto;
+	margin-bottom: 10px;
+}
+
+.progress-label {
+	display: flex;
+	width: 100%;
+	color: var(--primary);
+}
+
+.progress-lang{
+	text-align: left;
+}
+
+.progress-valu{
+	margin-left: auto;
+}
+
+.progress-python {
+	border-radius: 5px;
+	height: 16px;
+	width: 80%;
+	background: #3b6dae;
+	transition: 0.5s ease-out;
+	animation: 1.5s fillup-python;
+}
+
+.progress-c {
+	border-radius: 5px;
+	height: 16px;
+	width: 60%;
+	background: #454cdc;
+	transition: 0.5s ease-out;
+	animation: 1.5s fillup-c;
+}
+
+.progress-js{
+	border-radius: 5px;
+	height: 16px;
+	width: 60%;
+	background: #f5de19;
+	transition: 0.5s ease-out;
+	animation: 1.5s fillup-js;
+}
+
+.progress-cpp{
+	border-radius: 5px;
+	height: 16px;
+	width: 40%;
+	background: #3c4c94;
+	transition: 0.5s ease-out;
+	animation: 1.5s fillup-cpp;
+}
+
+.progress-java{
+	border-radius: 5px;
+	height: 16px;
+	width: 50%;
+	background: #ec2025;
+	transition: 0.5s ease-out;
+	animation: 1.5s fillup-java;
+}
+
+.progress-html{
+	border-radius: 5px;
+	height: 16px;
+	width: 70%;
+	background: #ef6026;
+	transition: 0.5s ease-out;
+	animation: 1.5s fillup-html;
+}
+
+.progress-css{
+	border-radius: 5px;
+	height: 16px;
+	width: 60%;
+	background: #25a1e1;
+	transition: 0.5s ease-out;
+	animation: 1.5s fillup-css;
+}
+
+.progress-bash{
+	border-radius: 5px;
+	height: 16px;
+	width: 50%;
+	background: #4da925;
+	transition: 0.5s ease-out;
+	animation: 1.5s fillup-bash;
+}
+
+.bars {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.subhead {
+	text-align: left;
+	font-size: 40px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.books-container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 10px auto;
+}
+
+.cover {
+	display: inline-block;
+	max-height: 150px;
+	margin: 10px 10px auto;
+	transition: 0.5s;
+	border: 1px solid var(--primary);
+}
+
+.cover:hover {
+	border: 1px solid var(--secondary);
+}
+
+table{
+	width: 50%;
+	border-collapse: collapse;
+	margin: 10px auto;
+	color: var(--primary);
+	background: #222222;
+}
+
+tr:nth-child(even){
+	background-color: #555555;
+}
+
+td, th {
+	font-size: 20px;
+	width: 50%;
+	position: relative;
+	border: 1px solid var(--secondary);
+}
+
+@keyframes fillup-python {
+	0%{width: 0;}
+	100%{width: 80%;}
+}
+
+@keyframes fillup-bash {
+	0%{width: 0;}
+	100%{width: 50%;}
+}
+
+@keyframes fillup-html {
+	0%{width: 0;}
+	100%{width: 70%;}
+}
+
+@keyframes fillup-css {
+	0%{width: 0;}
+	100%{width: 60%;}
+}
+
+@keyframes fillup-c {
+	0%{width: 0;}
+	100%{width: 60%;}
+}
+
+@keyframes fillup-js {
+	0%{width: 0;}
+	100%{width: 60%;}
+}
+
+@keyframes fillup-cpp {
+	0%{width: 0;}
+	100%{width: 40%;}
+}
+
+@keyframes fillup-java {
+	0%{width: 0;}
+	100%{width: 50%;}
+}

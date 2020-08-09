@@ -7,6 +7,7 @@
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 .Project-title {
@@ -31,6 +32,10 @@
 	margin: 5px;
 }
 
+.Project-learnmore-container {
+	text-align: right;
+}
+
 .Project-learnmore {
 	background: var(--secondary);
 	padding: 10px;
@@ -39,6 +44,8 @@
 	border-radius: 20px;
 	text-decoration: none;
 	transition: 0.5s;
+	outline: none;
+	display: inline-block;
 }
 
 .Project-button{ 

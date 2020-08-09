@@ -5,7 +5,7 @@
 	background: var(--grey);
 	background-image: url("../../../public/range.png");
 	background-size: cover;
-	background-position: 0 100px;
+	background-position: 0 150px;
 	background-repeat: no-repeat;
 }
 
@@ -34,6 +34,7 @@
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 	transition: 0.5s;
+	outline: none;
 }
 
 .News-link:hover {

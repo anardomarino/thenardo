@@ -15,12 +15,10 @@ class Info extends Component {
 	}
 	render(){
 		return(<>
-			<div className="Page-container">
 			<div className="Page-title u-fadein">
 			info.
 			</div>
 			<Me />
-			</div>
 		</>);
 	}
 

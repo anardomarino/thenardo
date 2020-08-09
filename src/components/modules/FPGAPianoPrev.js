@@ -21,7 +21,7 @@ const DESC2 =
 	 structures to hold six mini-servo motors each, actuating     \
 	 laser-cut acryllic fingers of variable lengths.";
 
-class TheraminPrev extends Component {
+class FPGAPianoPrev extends Component {
 	render(){return(<>
 		<div className="Project-container">
 			<img className="Thumbnail" src={piano} />
@@ -40,14 +40,16 @@ class TheraminPrev extends Component {
 					{DESC2}
 				</div>
 				<div className="Project-button">
+				<div className="Project-learnmore-container">
 				<Link to={LINK}
 					className="Project-learnmore">
 				learn more.
 				</Link>
+				</div>
 				</div>
 			</div>
 		</div>
 	</>);}
 }
 
-export default TheraminPrev;
+export default FPGAPianoPrev;
