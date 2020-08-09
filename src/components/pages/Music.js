@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import { Switch, Route } from "react-router-dom";
 import { Router } from "@reach/router";
 
-// components
-import SponchSteamyPrev from "../modules/SponchSteamyPrev";
-import ANWherePrev from "../modules/ANWherePrev";
-import CUPItIsWhatPrev from "../modules/CUPItIsWhatPrev";
+// ******* components
+//
+// previews
+import MusicPrev from "../modules/MusicPrev";
 
 //style
 import "../../utilities.css";
@@ -17,14 +18,7 @@ class Music extends Component {
 	}
 	render(){
 		return(<>
-			<div className="Page-title u-fadein">
-			music.
-			</div>
-			<div className="Previews-container">
-				<ANWherePrev />
-				<SponchSteamyPrev />
-				<CUPItIsWhatPrev />
-			</div>
+			<MusicPrev />
 		</>);
 	}
 

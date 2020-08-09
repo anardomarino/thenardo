@@ -13,6 +13,15 @@
 	display: inline-block;
 }
 
+.Album-full{
+	max-width: 600px;
+	max-height: 500px;
+	border: 1px solid var(--secondary);
+	transition: 0.5s;
+	display: inline-block;
+	margin: 0 auto;
+}
+
 .Album-cover:hover{
 	border: 1px solid var(--secondary);
 }
@@ -23,4 +32,35 @@
 
 .Album-year {
 	font-size: 20px;
+}
+
+.track {
+	display: flex;
+	margin: 10px auto;
+	color: var(--secondary);
+	text-align: left;
+	background: var(--grey);
+	border-radius: 20px;
+	height: 80px;
+}
+
+.track-num {
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.track-name{
+	margin-right: 20px;
+	margin: auto;
+	margin-left: 0;
+}
+
+iframe {
+	border: 1px solid var(--secondary);
+	width: 70%;
+	height: 100%;
+	display: inline-block;
+	border-radius: 0 20px 20px 0;
 }

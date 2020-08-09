@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Route } from "react-router-dom";
 import { Router } from "@reach/router";
 import NavBar from "./modules/NavBar";
 import Footer from "./modules/Footer";
@@ -12,6 +13,7 @@ import Music from "./pages/Music";
 import Games from "./pages/Games";
 import Art from "./pages/Art";
 import NotFound from "./pages/NotFound";
+import MusicChoose from "./modules/MusicChoose";
 
 // Style
 import "./App.css";
@@ -32,6 +34,7 @@ class App extends Component {
 				<About	 	path="/about" />
 				<Projects	path="/projects" />
 				<Music		path="/music" />
+				<MusicChoose	path="/music/:choose" />
 				<Games		path="/games" />
 				<Art		path="/art" />
 				<NotFound default />

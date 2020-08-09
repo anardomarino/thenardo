@@ -7,15 +7,25 @@ import "../../utilities.css";
 // img
 import pic from "../../../public/me.jpg";
 const SPACE = "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432468943l/70535._SY475_.jpg";
+const SPACE_L = "https://www.barnesandnoble.com/w/2001-arthur-c-clarke/1101956512";
 const LOTR = "https://prodimage.images-bn.com/pimages/9780544273443_p0_v2_s1200x630.jpg";
+const LOTR_L = "https://www.barnesandnoble.com/w/the-lord-of-the-rings-deluxe-edition-jrr-tolkien/1115479497?ean=9780544273443";
 const HOBBIT = "https://i.pinimg.com/originals/4f/bf/62/4fbf62e64a7f63c8a01ea257fea405dc.jpg";
+const HOBBIT_L = "https://www.barnesandnoble.com/w/hobbit-j-r-r-tolkien/1100068700?ean=9780547928227";
 const CHILD = "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320552628l/414999.jpg";
+const CHILD_L = "https://www.barnesandnoble.com/w/childhoods-end-arthur-c-clarke/1100008028?ean=9780345347954";
 const CONTACT = "https://i.pinimg.com/originals/ec/98/59/ec985950b743fb351066d9bdc0bb8735.jpg";
+const CONTACT_L = "https://www.barnesandnoble.com/w/contact-carl-sagan/1103275769?ean=9781501197987";
 const FRANK = "https://2.bp.blogspot.com/_cMdbfkl3Rz4/R7v-hjhOoeI/AAAAAAAABws/Od1EKUZN1eE/s800/AirmontFrankenstein.jpg";
+const FRANK_L = "https://www.barnesandnoble.com/w/frankenstein-shelley-mary/1126911566?ean=9781435159624"
 const CRIME = "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494307172l/35101197._SY475_.jpg";
+const CRIME_L = "https://www.barnesandnoble.com/w/crime-and-punishment-fyodor-dostoevsky/1116756319?ean=9781593080815";
 const FURY  = "https://images-na.ssl-images-amazon.com/images/I/91CTtO8eI8L.__BG0,0,0,0_FMpng_AC_UL600_SR390,600_.jpg";
+const FURY_L = "https://www.barnesandnoble.com/w/sound-and-the-fury-william-faulkner/1000337118?ean=9780679732242";
 const DRACULA  = "https://ih1.redbubble.net/image.1139423062.9197/flat,750x,075,f-pad,750x1000,f8f8f8.jpg";
+const DRACULA_L = "https://www.barnesandnoble.com/w/barnes-noble-leatherbound-classics-dracula-bram-stoker/1106658799?ean=9781435159570";
 const THINGS  = "https://images-na.ssl-images-amazon.com/images/I/31Y81iRzhbL._BO1,204,203,200_.jpg";
+const THINGS_L = "https://www.barnesandnoble.com/w/pleasure-of-finding-things-out-richard-phillips-feynman/1102811398?ean=9780465023950";
 
 // macros
 const SUMMARY = 
@@ -163,16 +173,36 @@ class Me extends Component {
 				favorite books.
 			</div>
 			<div className="books-container">
+				<a href={SPACE_L} target="_blank">
 				<img className="cover" src={SPACE}/>
+				</a>
+				<a href={LOTR_L} target="_blank">
 				<img className="cover" src={LOTR}/>
+				</a>
+				<a href={HOBBIT_L} target="_blank">
 				<img className="cover" src={HOBBIT}/>
+				</a>
+				<a href={CHILD_L} target="_blank">
 				<img className="cover" src={CHILD}/>
+				</a>
+				<a href={CONTACT_L} target="_blank">
 				<img className="cover" src={CONTACT}/>
+				</a>
+				<a href={FRANK_L} target="_blank">
 				<img className="cover" src={FRANK}/>
+				</a>
+				<a href={CRIME_L} target="_blank">
 				<img className="cover" src={CRIME}/>
+				</a>
+				<a href={FURY_L} target="_blank">
 				<img className="cover" src={FURY}/>
+				</a>
+				<a href={DRACULA_L} target="_blank">
 				<img className="cover" src={DRACULA}/>
+				</a>
+				<a href={THINGS_L} target="_blank">
 				<img className="cover" src={THINGS}/>
+				</a>
 			</div>
 		</div>
 	</>);}
