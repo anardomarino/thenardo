@@ -10,6 +10,12 @@ class ANWhere extends Component {
 	constructor(props){
 		super(props);
 	}
+	
+	handleClick = (event) => {
+		console.log('ok');
+		alert('ok');
+	}
+
 	render(){
 		return(<>
 			<div className="Album-cover-container">

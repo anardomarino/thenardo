@@ -41,11 +41,6 @@ class NavBar extends Component{
 				</Link>
 				</div>
 				<div className="NavBar-item-container">
-				<Link to="/games" className="NavBar-item underline">
-					games.
-				</Link>
-				</div>
-				<div className="NavBar-item-container">
 				<Link to="/art" className="NavBar-item underline">
 					art.
 				</Link>

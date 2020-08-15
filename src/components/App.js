@@ -14,6 +14,7 @@ import Games from "./pages/Games";
 import Art from "./pages/Art";
 import NotFound from "./pages/NotFound";
 import MusicChoose from "./modules/MusicChoose";
+import ProjectChoose from "./modules/ProjectChoose";
 
 // Style
 import "./App.css";
@@ -33,6 +34,7 @@ class App extends Component {
 				<Info		path="/info" />
 				<About	 	path="/about" />
 				<Projects	path="/projects" />
+				<ProjectChoose	path="/projects/:choose" />
 				<Music		path="/music" />
 				<MusicChoose	path="/music/:choose" />
 				<Games		path="/games" />

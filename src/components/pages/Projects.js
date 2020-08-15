@@ -2,18 +2,19 @@ import React, { Component } from "react";
 import { Router } from "@reach/router";
 
 // projects
-import TheraminPrev from "../modules/TheraminPrev";
-import FractalPrev from "../modules/FractalPrev";
-import FPGAPianoPrev from "../modules/FPGAPianoPrev";
-import SkrtPrev from "../modules/SkrtPrev";
-import VVizPrev from "../modules/VVizPrev";
-import TaxiPrev from "../modules/TaxiPrev";
-import SudokuPrev from "../modules/SudokuPrev";
-import ChessPrev from "../modules/ChessPrev";
-import SnakePrev from "../modules/SnakePrev";
-import PongPrev from "../modules/PongPrev";
-import HorsePrev from "../modules/HorsePrev";
-import CigarPrev from "../modules/CigarPrev";
+import TheraminPrev from 	"../modules/Theramin/TheraminPrev";
+import FractalPrev from 	"../modules/Fractal/FractalPrev";
+import FPGAPianoPrev from 	"../modules/FPGAPiano/FPGAPianoPrev";
+import SkrtPrev from 		"../modules/Skrt/SkrtPrev";
+import VVizPrev from 		"../modules/VViz/VVizPrev";
+import TaxiPrev from 		"../modules/Taxi/TaxiPrev";
+import SudokuPrev from 		"../modules/Sudoku/SudokuPrev";
+import ChessPrev from 		"../modules/Chess/ChessPrev";
+import SnakePrev from 		"../modules/Snake/SnakePrev";
+import PongPrev from 		"../modules/Pong/PongPrev";
+import HorsePrev from 		"../modules/Horse/HorsePrev";
+import CigarPrev from 		"../modules/Cigar/CigarPrev";
+import NootPrev from 		"../modules/Noot/NootPrev";
 
 //style
 import "./Projects.css";
@@ -29,6 +30,9 @@ class Projects extends Component {
 		return(<>
 			<div className="Page-title u-fadein">
 			projects.
+			</div>
+			<div className="Project">
+				<NootPrev />
 			</div>
 			<div className="Project">
 				<TheraminPrev />

@@ -1,0 +1,11 @@
+.Noot-container{
+	width: 100%;
+}
+
+.Noot-title {
+	font-family: 'Mandali', sans-serif;
+	color: #2099bbff;
+	font-size: 50px;
+	margin: 0 auto;
+	text-align: center;
+}

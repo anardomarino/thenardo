@@ -4,6 +4,7 @@ import { Router } from "@reach/router";
 // Pieces
 import MountainDragon from  "../modules/MountainDragon";
 import GuitarArt from  "../modules/GuitarArt";
+import LyreArt from "../modules/LyreArt";
 
 // style
 import "../../utilities.css";
@@ -22,6 +23,7 @@ class Art extends Component {
 			<div className="Previews-container">
 				<MountainDragon />
 				<GuitarArt />
+				<LyreArt />
 			</div>
 		</>);
 	}

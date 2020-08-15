@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { Link } from "@reach/router";
 
 // Projects
-import TheraminPrev from "./TheraminPrev";
+import NootPrev from "./Noot/NootPrev";
+import TheraminPrev from "./Theramin/TheraminPrev";
 
 // style
 import "../../utilities.css";
@@ -18,7 +19,12 @@ class RecentProj extends Component {
 			<div className="News-headline">
 				most recent projects.
 			</div>
+			<div className="RP-Project">
+			<NootPrev />
+			</div>
+			<div className="RP-Project">
 			<TheraminPrev />
+			</div>
 		</div>
 	</>);}
 }
