@@ -21,6 +21,7 @@
 .Project-main-body-text {
 	margin: 20px;
 	color: white;
+	text-align: justify;
 }
 
 .Project-body-text {
@@ -111,6 +112,18 @@
 	font-size: 30px;
 	margin: 10px;
 	text-align: left;
+}
+
+.Project-download-title {
+	font-size: 30px;
+	margin-left: 10px;
+	text-align: left;
+	text-decoration: underline;
+	color: inherit;
+}
+
+.Project-download-title:hover {
+	color: var(--secondary-dark);
 }
 
 .Thumbnail {

@@ -1,0 +1,28 @@
+.Theramin-title {
+	font-size: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.Theramin-top-image {
+	text-align: center;
+	width: 100%;
+	border-radius: 20px;
+}
+
+.Theramin-video {
+	width: 100%;
+	height: 400px;
+}
+
+.Theramin-body-image {
+	width: 100%;
+	border-radius: 0 20px 20px 0;
+}
+
+.Theramin-body-image-container {
+	width: 500%;
+	margin-left: auto;
+	border: 1px solid var(--secondary);
+	border-radius: 0 20px 20px 0;
+}
